@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daraz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="icon" href="img/Daraz-Emblem.png" type="image/x-icon" sizes="100%">
+
+
+</head>
+
+<body>
+    <header>
+        <div id="header-content">
+            <div id="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+
+            <div id="search-bar">
+                <input type="text" placeholder="Search in Daraz">
+                <div id="search-btn">
+                    <div id="search-icon">
+                        <i class="ri-search-line"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="card-icon">
+                <i class="ri-shopping-cart-line"></i>
+            </div>
+
+            <div id="nav-links">
+                <a href="">Sell On Daraz</a>
+                <a href="">Help & Support</a>
+                <a href="">Login</a>
+                <a href="">Sign Up</a>
+            </div>
+        </div>
+
+    </header>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="img/1.webp" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="img/2.webp" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="img/3.webp" alt="Image 3">
+            </div>
+            <!-- Add more slides as needed -->
+        </div>
+        <!-- Navigation buttons -->
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <div id="flash-sale-txt">
+        <p>Flash sale</p>
+    </div>
+    <div id="flash-sale">
+        <div id="flash-text">
+            <div id="on-sale-now">On Sale Now</div>
+            <div id="shop-all-product">SHOP ALL PRODUCTS</div>
+        </div>
+        <div id="flash-line"></div>
+        <div id="flash-content">
+
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/static/pk/p/83e66ef76f47306d55310406aa53ec5c.jpg_400x400q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>i12 Black TWS Airpods_ with Super Sound & High Quality Touch Sensors</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.836</span><br><span id="cut-price">Rs.3,000</span><span
+                        id="off-price">-72%</span>
+                </div>
+            </div>
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/static/pk/p/9873e6dc2187e71482d675a0c3c0b17e.jpg_400x400q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>(Buy 1 Get 1 Free) AKG Handsfree - Universal AKG Handfree For All Android</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.357</span><br><span id="cut-price">Rs.1,500</span><span
+                        id="off-price">-76%</span>
+                </div>
+            </div>
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/static/pk/p/e1400069b0314370724eb5a0eb2611cf.jpg_200x200q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>Airpods_pro protective Silicon case/cover - 360 protection</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.145</span><br><span id="cut-price">Rs.700</span><span
+                        id="off-price">-75%</span>
+                </div>
+            </div>
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/static/pk/p/798f579233d04d9200996b915aea1886.jpg_400x400q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>Black Advanced New Version Bluetooth Digital Wrist Smart Watch IP67 Waterproof</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.1299</span><br><span id="cut-price">Rs.5,000</span><span
+                        id="off-price">-74%</span>
+                </div>
+            </div>
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/static/pk/p/e720f2749d82b417417d8e8ba8f33bcc.jpg_400x400q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>3 In 1 Super Fast Charging Cable Silicone Type C Micro 120w Usb Cable</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.188</span><br><span id="cut-price">Rs.349</span><span
+                        id="off-price">-49%</span>
+                </div>
+            </div>
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/static/pk/p/fa79ae7be08d06bab9ccb68274bddbb2.jpg_400x400q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>Air buds Air 31 Wireless Bluetooth-Compatible Headset Wireless Earphone</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.758</span><br><span id="cut-price">Rs.3,000</span><span
+                        id="off-price">-75%</span>
+                </div>
+            </div>
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/static/pk/p/477516d6cb0d84f3ad68fbd4ba05a269.jpg_200x200q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>Stylish Watch for Men - Luxury 8 Design Watch - Wrist Watch for men</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.399</span><br><span id="cut-price">Rs.800</span><span
+                        id="off-price">-50%</span>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div id="flash-sale">
+        
+        <div id="flash-line"></div>
+        <div id="flash-content">
+
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/static/pk/p/c009560e330c4b3199132bcdded4b329.jpg_200x200q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>T800 Ultra Smart Watch Series 8 1.99" Bluetooth Call Smartwatch</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.849</span><br><span id="cut-price">Rs.4,200</span><span
+                        id="off-price">-78%</span>
+                </div>
+            </div>
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/g/kf/Sf2b0033c1ee24261bf99274d61348564h.jpg_200x200q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>Unisex Star Iron Ring Baseball Caps Spring and Autumn Outdoor</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.1,067</span><br><span id="cut-price">Rs.2,200</span><span
+                        id="off-price">-67%</span>
+                </div>
+            </div>
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/g/kf/S84f5419a0c3f4fcea92f64ba6e1c90b0Y.jpg_200x200q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>Santa Polo Regal Leather Case for iPhone 11 to 15 pro max</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.1299</span><br><span id="cut-price">Rs.1500</span><span
+                        id="off-price">-7%</span>
+                </div>
+            </div>
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/static/pk/p/5c5c5f11feacdb1d0cb4b7a489d71176.jpg_200x200q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>Room Air Cooler COVER - Water Proof Dust Proof Anti Scratch Sunlight Proof</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.358</span><br><span id="cut-price">Rs.11,00</span><span
+                        id="off-price">-67%</span>
+                </div>
+            </div>
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/static/pk/p/550afd19f10efa78e4cf58f3cb975526.jpg_200x200q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>L'Oréal Paris Elvive Hyaluron Moisture Shampoo - 360 ml -Moisture free</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.804</span><br><span id="cut-price">Rs.1159</span><span
+                        id="off-price">-15</span>
+                </div>
+            </div>
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/g/kf/Sc73d7846e0e542eda2c2a76e5feada7aw.jpg_200x200q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>Air buds Air 31 Wireless Bluetooth-Compatible Headset Wireless Earphone</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.758</span><br><span id="cut-price">Rs.1.500</span><span
+                        id="off-price">-75%</span>
+                </div>
+            </div>
+            <div id="flash-sale-content">
+                <div id="flash-sale-img">
+                    <img src="https://img.drz.lazcdn.com/static/pk/p/717d32c812b3c9c90ac08b4d52e041a7.jpg_200x200q80.jpg_.webp"
+                        alt="">
+                </div>
+                <div id="flash-sale-text">
+                    <p>Repair Tool Kit Opening Tools Set Screwdriver Screw Driver For Xbox</p>
+                </div>
+                <div id="flash-sale-price">
+                    <span id="price">Rs.681</span><br><span id="cut-price">Rs.1500</span><span
+                        id="off-price">-75%</span>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div id="flash-sale-txt">
+        <p>Categories</p>
+    </div>
+
+    <div id="categories">
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/d002c9a341e9183c6d07194388411eb8.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Sunglasses
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/g/kf/S30705509c5d1466384dca643226ba58fi.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Stationery
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/aa8d2b182d8800f2a69ffbe04175f8cd.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Mobiles
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/8551f6bf4ad034207c1f3afa4df4c01a.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Dog & Cat Beds
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/e63e6b2e1f59e250f2e8b3b9ca0ce840.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Tablets
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/f4663d0b52e45aa9a2f51f95dc0a2e83.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Starter Kits
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/mdc/a4c511ae61210c9ec719ef46647302e3.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt" style="font-size: 12px;">
+                Lotion, Cream and Scrubs
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/68ed507f23a8247de97e62c560b93b19.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt" style="font-size: 14px;">
+                Salt & Pepper Tools
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/mdc/067d03d24233284c2348e0a4ce8cca1e.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Table Lamps
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/e4bf3a043b5ff3a5383f1915cbb2290b.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt" style="font-size: 12px;">
+                Shower Caddies & Hangers
+                
+            </div>
+        </div>
+
+    </div>
+    <div id="categories" style="margin-top:-17px ;">
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/d002c9a341e9183c6d07194388411eb8.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Sunglasses
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/g/kf/S30705509c5d1466384dca643226ba58fi.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Stationery
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/aa8d2b182d8800f2a69ffbe04175f8cd.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Mobiles
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/8551f6bf4ad034207c1f3afa4df4c01a.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Dog & Cat Beds
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/e63e6b2e1f59e250f2e8b3b9ca0ce840.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Tablets
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/f4663d0b52e45aa9a2f51f95dc0a2e83.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Starter Kits
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/mdc/a4c511ae61210c9ec719ef46647302e3.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt" style="font-size: 12px;">
+                Lotion, Cream and Scrubs
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/68ed507f23a8247de97e62c560b93b19.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt" style="font-size: 14px;">
+                Salt & Pepper Tools
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/mdc/067d03d24233284c2348e0a4ce8cca1e.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt">
+                Table Lamps
+            </div>
+        </div>
+        <div id="categories-content">
+            <div id="categories-content-img">
+                <img src="https://img.drz.lazcdn.com/static/pk/p/e4bf3a043b5ff3a5383f1915cbb2290b.jpg_170x170q80.jpg_.webp"
+                    alt="">
+            </div>
+            <div id="categories-content-txt" style="font-size: 12px;">
+                Shower Caddies & Hangers
+                
+            </div>
+        </div>
+
+    </div>
+
+
+<footer>
+    <div id="footer-content">
+        <div id="logo">
+            <img src="img/logo.png" alt="" style="width: 100px;">
+        </div>
+    <div id="copy-write">© 2024 Muhammad Rafay Anwar — @rafay786anwer</div>
+    <div id="footer-links">
+        <a href="">Facebook</a>
+        <a href="">Twitter</a>
+        <a href="">Instagram</a>
+    </div>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
